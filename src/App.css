@@ -18,7 +18,77 @@ body{
   color: #fff;
 }
 
+
 #introSubTitle{
-  font-style: oblique;
-  font-size: x-large;
+  font-size: large;
+}
+
+#emp_{
+  display: inline;
+}
+
+.emphasis{
+  color: #FA9F42;
+}
+
+video {
+  /** Simulationg background-size: cover */
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+#heroImage{
+  position: relative;
+  left:34%;
+}
+
+.whole{
+  background-image: url("./assets/images/photos/books.jpg");
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+  .video-wrapper{
+    display:none;
+  }
+
+  /* .banner{
+    margin-top: -10%;
+  } */
+
+  .banner-description h1{
+    font-size: large;
+    margin:3%;
+  }
+
+  .banner-description h1 p{
+    font-size: medium;
+  }
+
+  #header{
+    display:none;
+  }
+
+  .App{
+    height: auto;
+  }
 }

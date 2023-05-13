@@ -1,3 +1,6 @@
+import '../../App';
+
+
 const Mentor = () => {
     return(
         <div>Mentor</div>
