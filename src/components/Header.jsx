@@ -6,7 +6,7 @@ const Header = () => {
     return(
         <nav id="header" className="text-white bg-transparent">
             <div className="w-full mx-auto container flex flex-wrap items-center justify-between mt-0 py-1">
-                <div className="logo-wrapper pl-4 flex items-center">
+                <div className="logo-wrapper pl-11 flex items-center">
                     <Link to="/" className="toggleColor no-underline hover-no-underline font-bold text-2xl lg:text-4xl">
                         <img src={logo} alt="logo" className="w-40 h-40 object-cover" />
                     </Link>
