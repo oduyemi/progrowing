@@ -14,8 +14,9 @@ const Header = () => {
                 </div>
                 <div className="nav-menu-wrapper flex items-center justify-between space-x-10">
                     <Link to="/" className="text-l">Home</Link>
+
                     <Link to="/courses" className="text-l">Courses</Link>
-                    <Link to="/find" className="text-l">Find a Mentor</Link>
+                    <Link to="/session" className="text-l">Mentorship Session</Link>
                 
                 </div>
                 <div className="flex items-center justify-between space-x-6 pr-4">

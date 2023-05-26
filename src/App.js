@@ -1,11 +1,12 @@
 import './App.css';
 import Navigation from "./navigation/index";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navigation />
     </div>
+    
   );
 }
 

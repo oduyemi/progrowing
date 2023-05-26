@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../CSS/animate.min.css";
 import Button from "./elements/Button";
 
@@ -12,7 +13,9 @@ export const Banner = () => {
                     <p id="introSubTitle" className="mt-1 pl-6 text-gray-400 py-1 text-xxl animate__animated animate__fadeIn animated__delay__4">Start now. Become a better programmer</p>
                     <div className="btn-container pl-5">
                         <p className="pl-0 mt-5 text-2xl font-light">Find world-class mentors <br/>for live mentorship and freelance projects.</p>
-                        <Button className="">Find a Mentor</Button>
+                        <Link to="/find">
+                            <Button>Find a Mentor</Button>
+                        </Link>
                     </div>
                 </div>
                 <div className="banner-image video-wrapper embed-responsive-item w-full flex mx-auto p-3 mr-10">
