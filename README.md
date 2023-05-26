@@ -9,3 +9,5 @@ Redux Thunk
 
 Tailwind CSS
 
+Socket io
+
