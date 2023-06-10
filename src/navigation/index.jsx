@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Header from "../components/Header";
 import Home from "../pages/Home";
 import Courses from "../pages/Courses";
@@ -11,24 +11,25 @@ import PaymentSuccess from "../pages/PaymentSuccess";
 import Session from "../pages/Session";
 import SessionPage from "../pages/SessionPage";
 
+
+
 const Navigation = () => {
     return(
         <>
-            <BrowserRouter>
-                <Header />
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/courses" element={<Courses />} />
-                        <Route path="/session" element={<Session />} />
-                        <Route path="/session/:sessionid" element={<SessionPage />} />
-                        <Route path="/find" element={<Find />} />
-                        <Route path="/login" element={<Login />} />
-                        <Route path="/logout" element={<Logout />} />
-                        <Route path="/mentor" element={<Mentor />} />
-                        <Route path="/register" element={<Register />} />
-                        <Route path="/payment-success" element={<PaymentSuccess />} />
-                    </Routes>
-            </BrowserRouter>
+            <Header />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/courses" element={<Courses />} />
+                    <Route path="/session" element={<Session />} />
+                    <Route path="/session/:sessionid" element={<SessionPage />} />
+                    <Route path="/find" element={<Find />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/logout" element={<Logout />} />
+                    <Route path="/mentor" element={<Mentor />} />
+                    <Route path="/register" element={<Register />} />
+                    <Route path="/payment-success" element={<PaymentSuccess />} />
+                </Routes>
+           
         </>
     )
 }

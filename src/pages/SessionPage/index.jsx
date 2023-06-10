@@ -1,5 +1,9 @@
+import { LobbyScreen } from "../../components/Lobby"
+
 const SessionPage = () => {
-   <><h1 className="pl-4">Session Room</h1></>
+   return(
+      <LobbyScreen />
+   )
 }
 
 export default SessionPage

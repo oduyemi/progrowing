@@ -1,9 +1,9 @@
-import '../../App';
+import { CoursesPage } from "../../components/CoursesPage";
 
 
 const Courses = () => {
     return(
-        <div>Courses</div>
+        <CoursesPage />
     )
 }
 

@@ -22,7 +22,7 @@ const Header = () => {
                 <div className="flex items-center justify-between space-x-6 pr-4">
                     <Link to="/mentor" className="text-l">Be a Mentor</Link>
                     <Link to="/login" className="text-l">Login</Link>
-                    <Link to="/signup" className="text-l">Register</Link>
+                    <Link to="/register" className="text-l c-pwd">Register</Link>
 
                     <div class="relative m-6 inline-flex w-fit pr-4">
                     <div

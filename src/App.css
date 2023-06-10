@@ -6,6 +6,7 @@
 
 body{
   overflow-x: hidden;
+  overflow-y: hidden;
   scroll-behavior: smooth; 
 }
 
@@ -36,7 +37,7 @@ body{
   color: #FA9F42;
 }
 
-video {
+.video {
   /** Simulationg background-size: cover */
   object-fit: contain;
   height: 100%;
@@ -70,8 +71,9 @@ video {
 }
 
 .slidebox{
-  max-width: 1040px;
+  max-width: 1020px;
   margin: 100px auto;
+  height: 100px;
 }
 
 h2::after{
@@ -94,8 +96,13 @@ h2::after{
   border: 2px solid #fff;
 }
 
-.logo-slider .slick-slide{
-  margin: 15px;
+.logo-slider{
+position: relative;
+top: 36px;
+}
+
+.slick-slide{
+  margin-top: -1px;
 }
 
 .slick-dots li.slick-active button::before{
@@ -117,6 +124,62 @@ slick-prev::before{
   transition: all ease 0.3s;
   transform: scale(1.1) translateY(-5px);
 }
+
+.form-body{
+  position: relative;
+  top:30%;
+  left: 26%
+}
+
+.regform-btn{
+  margin-left: 120px;
+}
+
+.logform-btn{
+  margin-left: 100px;
+}
+
+.btnUp{
+  margin-top: -1%;
+}
+
+.session-btn{
+  margin-top: -4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 700px){

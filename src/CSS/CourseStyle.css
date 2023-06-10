@@ -1,0 +1,58 @@
+.course-image{
+    width: 100%;
+  }
+  
+  .slidebox{
+    max-width: 1040px;
+    margin: 100px auto;
+    height: 300px;
+  }
+  
+  h2::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #fff;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  
+  .logo-slider .item{
+    background-color: #42113C;
+    box-shadow: 0 4px 5px #42113C;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid #fff;
+  }
+  
+  .logo-slider{
+  position: relative;
+  top: 36px;
+  }
+  
+  .slick-slide{
+    margin-top: -1px;
+  }
+  
+  .slick-dots li.slick-active button::before{
+    color: #ff5722;
+  }
+  
+  .slick-dots li button::before{
+    font-size: 12px;
+  }
+  
+  slick-next::before,
+  slick-prev::before{
+    color: #ff8159;
+    font-size: 28px;
+  }
+  
+  .item:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
+  }
