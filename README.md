@@ -1,4 +1,4 @@
-# [![ProGrowing Badge](https://res.cloudinary.com/dymd1jkbl/image/upload/v1689330770/pg/emzagcg56bthavrhnmsi.png)] ProGrowing
+![ProGrowing Badge](https://res.cloudinary.com/dymd1jkbl/image/upload/v1689330770/pg/emzagcg56bthavrhnmsi.png)
 
 A web application for ProGrowing. ProGrowing is a mentorship platform that serves people in the tech industry.
 ## Technologies
