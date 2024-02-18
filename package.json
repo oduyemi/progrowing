@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^4.1.1",
     "clsx": "^1.2.1",
     "jquery": "^3.7.0",
     "react": "^18.2.0",

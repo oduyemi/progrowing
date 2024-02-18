@@ -1,7 +1,8 @@
+import React from "react";
 import clsx from "clsx";
 
 function getClassName({className}){
-    return clsx("mt-10 bg-yellow-700 rounded-md px-3 py-2 hover:bg-yellow-900 transition-colors transition-duration-300 cursor-pointer focus-outline-none focus-ring-2 focus-ring-opacity-50",
+    return clsx("mt-10 bg-yellow-700 rounded-md px-3 py-2 hover:bg-yellow-900 transition-all duration-150 ease-linear cursor-pointer focus-outline-none focus-ring-2 focus-ring-opacity-50",
     className)
 }
 

@@ -5,6 +5,7 @@
 }
 
 body{
+  background-color: #42113C;
   overflow-x: hidden;
   overflow-y: hidden;
   scroll-behavior: smooth; 
@@ -19,11 +20,10 @@ body{
 }
 
 .App{
-  height: 100vh;
-  background-color: #42113C;
+  min-height: 100vh;
+  height: auto; 
   color: #fff;
 }
-
 
 #introSubTitle{
   font-size: large;
@@ -33,12 +33,12 @@ body{
   display: inline;
 }
 
+
 .emphasis{
   color: #FA9F42;
 }
 
 .video {
-  /** Simulationg background-size: cover */
   object-fit: contain;
   height: 100%;
   width: 100%;
@@ -53,6 +53,10 @@ body{
   text-align: center;
 }
 
+.vid{
+  border-radius: 22px;
+
+}
 #heroImage{
   position: relative;
   left:34%;
@@ -62,9 +66,9 @@ body{
   background-image: url("./assets/images/photos/books.jpg");
 }
 
-/* .grayscale {
+.grayscale {
   filter: grayscale(100%);
-} */
+}
 
 .brand-image{
   width: 100%;
@@ -74,6 +78,7 @@ body{
   max-width: 1020px;
   margin: 100px auto;
   height: 100px;
+  position: relative;
 }
 
 h2::after{
@@ -106,17 +111,17 @@ top: 36px;
 }
 
 .slick-dots li.slick-active button::before{
-  color: #ff5722;
+  color: #FA9F42;
 }
 
 .slick-dots li button::before{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 slick-next::before,
 slick-prev::before{
-  color: #ff8159;
-  font-size: 28px;
+  color: #FA9F42;
+  font-size: 22px;
 }
 
 .item:hover{
@@ -125,64 +130,133 @@ slick-prev::before{
   transform: scale(1.1) translateY(-5px);
 }
 
-.form-body{
-  position: relative;
-  top:30%;
-  left: 26%
-}
-
-.regform-btn{
-  margin-left: 120px;
-}
-
-.logform-btn{
-  margin-left: 100px;
-}
 
 .btnUp{
   margin-top: -1%;
 }
 
-.session-btn{
-  margin-top: -4%;
+body.formpage{
+  overflow-y: visible;
 }
 
 
 
 
+@media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .mobile-menu-button {
+    display: block;
+    width: 100%;
+  }
+
+  #mobile-menu:hover{
+    color: #C32F27;
+  }
+  
+  .nav-menu-wrapper {
+    display: none;
+  }
+
+  .nav-icon {
+    display: block;
+    margin: 2%; 
+    padding: 2%;
+  }
+
+  .logo {
+    width: 70%;
+    margin-top: -14%;
+    position: relative;
+    right: 14%;
+  }
+
+  .mobile-menu-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(253, 207, 243, 0.99);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+
+  .mobile-menu-content {
+    padding: 20px;
+  }
+
+  .close-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #C32F27;
+    margin-bottom: 10px;
+  }
 
 
+  .mobile-menu-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
 
+  .mobile-menu-link:hover{
+    color: #C32F27;
+  }
+  .mobile-menu-link:hover {
+    background: #eee;
+  }
+  .header-extras{
+    display:none;
+  }
+  .link{
+    position: relative;
+    left: 0;
+  }
 
+  .banner-head, .main_container{
+    margin-top: -10%;
+  }
+  .topic{
+    font-size: 60px !important;
+  }
 
+  .topic-md{
+    font-size: larger;
+    position: relative;
+    left: 10%;
+  }
 
+  .gap{
+    padding: 0%;
+  }
 
+  .inner-text{
+    font-size: large;
+    text-align: inherit;
+  }
 
+  .inner-text-sm{
+    font-size: medium;
+  }
 
+  .banner-image{
+    display: none;
+  }
 
+  /* .fields{
+    padding-left: 8px;
+    padding-right: 8px;
+  } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 700px){
   .video-wrapper{
     display:none;
   }
@@ -192,12 +266,12 @@ slick-prev::before{
   } */
 
   .banner-description h1{
-    font-size: large;
+    font-size: xx-large;
     margin:3%;
   }
 
   .banner-description h1 p{
-    font-size: medium;
+    font-size: small;
   }
 
   #header{
@@ -207,4 +281,15 @@ slick-prev::before{
   .App{
     height: auto;
   }
+
 }
+
+
+
+
+
+
+
+
+
+

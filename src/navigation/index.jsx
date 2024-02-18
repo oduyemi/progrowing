@@ -2,14 +2,14 @@ import { Route, Routes } from "react-router-dom";
 import Header from "../components/Header";
 import Home from "../pages/Home";
 import Courses from "../pages/Courses";
-import Find from "../pages/Find";
-import Login from "../pages/Login";
+import Find from "../pages/Mentee";
+import Mentee from "../pages/Mentee";
 import Logout from "../pages/Logout";
 import Mentor from "../pages/Mentor";
-import Register from "../pages/Register";
-import PaymentSuccess from "../pages/PaymentSuccess";
-import Session from "../pages/Session";
-import SessionPage from "../pages/SessionPage";
+import MentorRegister from "../pages/MentorRegister";
+import Forum from "../pages/Forum";
+import Learning from "../pages/Learning";
+import Taskify from "../pages/Taskify";
 
 
 
@@ -20,14 +20,14 @@ const Navigation = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/courses" element={<Courses />} />
-                    <Route path="/session" element={<Session />} />
-                    <Route path="/session/:sessionid" element={<SessionPage />} />
+                    <Route path="/taskify" element={<Taskify />} />
+                    <Route path="/learn" element={<Learning />} />
+                    <Route path="/forum" element={<Forum />} />
                     <Route path="/find" element={<Find />} />
-                    <Route path="/login" element={<Login />} />
+                    <Route path="/mentee" element={<Mentee />} />
                     <Route path="/logout" element={<Logout />} />
                     <Route path="/mentor" element={<Mentor />} />
-                    <Route path="/register" element={<Register />} />
-                    <Route path="/payment-success" element={<PaymentSuccess />} />
+                    <Route path="/mentor-form" element={<MentorRegister />} />
                 </Routes>
            
         </>

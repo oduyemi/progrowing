@@ -1,9 +1,10 @@
-import '../../App';
-
+// import { BecomeMentor } from "../../components/BecomeMentor";
+import { MentorForm } from "../../components/MentorForm";
+// import { Footer } from "../../components/Footer";
 
 const Mentor = () => {
     return(
-        <div>Mentor</div>
+        <MentorForm/>
     )
 }
 
