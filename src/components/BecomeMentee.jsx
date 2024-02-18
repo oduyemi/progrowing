@@ -14,7 +14,7 @@ export const BecomeMentee = () =>
                         <h1 className="text-3xl font-semibold mt-0 my-6 md:pl-8 sm:pl-4 capitalize text-yel topic mx-auto">Grow with help from mentors</h1>
                         <p className="w-2/3 ml-2 pl-8 mb-4 topic-md">
                             It's about time you started saying goodbye to guesswork and expensive mistakes. Get valuable "been there, done that"
-                            advice directly from startup mentors.
+                            advice directly from mentors.
                         </p>
                     
                         <form action="" className="flex items-center space-x-2 pl-10 mx-auto mt-5 mb-3 mid">
