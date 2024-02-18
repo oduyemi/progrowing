@@ -31,7 +31,7 @@ export const Brands = () => {
     return(
       <>
       <div className="slidebox mt-[5%]" style={{marginBottom: "-8.8%"}}>
-       <h2 class="text-white text-center text-2xl font-semibold animate-pulse">Learn important tools and master your software skills</h2>
+       <h2 class="text-white text-center text-2xl font-semibold animate-pulse topic-md">Learn important tools and master your software skills</h2>
         <Slider {...settings} className="logo-slider flex items-center justify-center">
           <div className="item mx-auto"><Link to=""><img src={require("../assets/images/logo/github.png")} className="brand-img px-6 md:px-12 w-50" alt="Github" /></Link></div>
           <div className="item"><Link to=""><img src={require("../assets/images/logo/atom.png")} className="brand-img px-6 md:px-12 w-50" alt="Atom" /></Link></div>

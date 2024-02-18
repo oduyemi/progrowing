@@ -26,7 +26,7 @@ body{
 }
 
 #introSubTitle{
-  font-size: large;
+  font-size: medium;
 }
 
 #emp_{
@@ -69,6 +69,7 @@ body{
 .grayscale {
   filter: grayscale(100%);
 }
+
 
 .brand-image{
   width: 100%;
@@ -209,13 +210,21 @@ body.formpage{
   }
 
   .mobile-menu-link:hover{
-    color: #C32F27;
+    color: #BD1E1E;
   }
   .mobile-menu-link:hover {
     background: #eee;
   }
   .header-extras{
     display:none;
+  }
+
+  .mid{
+    position: relative;
+    right: 14%;
+  }
+  .sidebtns{
+    display: none;
   }
   .link{
     position: relative;
@@ -226,15 +235,26 @@ body.formpage{
     margin-top: -10%;
   }
   .topic{
-    font-size: 60px !important;
+    font-size: 42px !important;
   }
 
   .topic-md{
     font-size: larger;
-    position: relative;
-    left: 10%;
   }
 
+  .upped{
+    margin-top: -10%;
+    margin-bottom: -10%;
+  }
+
+  .side{
+    margin-left:10px;
+  }
+
+  .rside{
+    margin-right: 20px;
+  }
+ 
   .gap{
     padding: 0%;
   }
@@ -252,18 +272,9 @@ body.formpage{
     display: none;
   }
 
-  /* .fields{
-    padding-left: 8px;
-    padding-right: 8px;
-  } */
-
   .video-wrapper{
     display:none;
   }
-
-  /* .banner{
-    margin-top: -10%;
-  } */
 
   .banner-description h1{
     font-size: xx-large;
@@ -272,10 +283,6 @@ body.formpage{
 
   .banner-description h1 p{
     font-size: small;
-  }
-
-  #header{
-    display:none;
   }
 
   .App{

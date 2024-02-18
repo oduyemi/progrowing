@@ -66,7 +66,7 @@ const Header = () => {
                         <li><Link to="/courses" className="text-l">Learning Center</Link></li>
                         <li><Link to="/taskify" className="text-l">Taskify</Link></li>
                     </ul>
-                    <div className="flex items-center justify-between space-x-6 pr-8 mt-[-5%]">
+                    <div className="sidebtns flex items-center justify-between space-x-6 pr-8 mt-[-5%]">
                         <Link to="/mentor-form" className="text-l"><Button variant="outline">Be A Mentor</Button></Link>
                         <Link to="/mentee" className="text-l"><Button>Be A Mentee</Button></Link>      
                     </div>    
