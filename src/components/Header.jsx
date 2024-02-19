@@ -27,8 +27,8 @@ const Header = () => {
                 <Link to="/forum" className="mobile-menu-link text-l" onClick={closeMobileMenu}>Forum</Link>
                 <Link to="/courses" className="mobile-menu-link text-l" onClick={closeMobileMenu}>Learning Center</Link>
                 <Link to="/taskify" className="mobile-menu-link text-l" onClick={closeMobileMenu}>Taskify</Link>
-                <Link to="/mentor-form" className="mobile-menu-link"><Button variant="outline">Be A Mentor</Button></Link>
-                <Link to="/mentee" className="mobile-menu-link"><Button>Be A Mentee</Button></Link>
+                <Link to="/mentor-form" className="mobile-menu-link"onClick={closeMobileMenu}><Button variant="outline">Be A Mentor</Button></Link>
+                <Link to="/mentee" className="mobile-menu-link"onClick={closeMobileMenu}><Button>Be A Mentee</Button></Link>
             </div>
           </div>
         )
