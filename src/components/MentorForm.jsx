@@ -10,7 +10,7 @@ export const MentorForm = () => {
                 development of Software Engineers? Become a
                 mentor now. Fill the form below to get started.
             </p>
-            <div className="pl-4 bg-gray-300 md:w-1/3 sm:w-full mx-auto mb-14">
+            <div className="pl-4 bg-gray-300 md:w-1/3 sm:w-full mx-auto mb-14 mform">
                 <div className="form-body mx-auto">
                     <form id="form" novalidate>
                     <div className="relative z-0 w-full mb-5 mt-0">
@@ -21,7 +21,7 @@ export const MentorForm = () => {
                         required
                         className="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
                         />
-                        <label for="name" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">Enter Full name</label>
+                        <label for="name" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-400">Enter Full name</label>
                         <span className="text-sm text-red-600 hidden" id="error">Field is required</span>
                     </div>
 
@@ -32,7 +32,7 @@ export const MentorForm = () => {
                         placeholder=" "
                         className="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
                         />
-                        <label for="email" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">Enter Email Address</label>
+                        <label for="email" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-400">Enter Email Address</label>
                         <span className="text-sm text-red-600 hidden" id="error">Email address is required</span>
                     </div>
                     <div className="relative z-0 w-full mb-5">
@@ -42,37 +42,37 @@ export const MentorForm = () => {
                         placeholder=" "
                         className="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
                         />
-                        <label for="email" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">Enter Phone Number</label>
+                        <label for="email" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-400">Enter Phone Number</label>
                         <span className="text-sm text-red-600 hidden" id="error">Email address is required</span>
                     </div>
 
                     <fieldset className="relative z-0 w-full p-px mb-5">
                         <legend className="absolute text-ppl transform scale-75 -top-3 origin-0">Choose an option</legend>
-                        <div className="block pt-3 pb-2 space-x-4">
-                        <label className="text-black">
+                        <div className="block pt-3 pb-2">
+                        <label className="text-gray-400">
                             <input
                             type="radio"
                             name="radio"
                             value="1"
-                            className="mr-2 text-black border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
+                            className="mr-2 text-gray-400 border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
                             />
                             Web Development
-                        </label>
-                        <label className="text-black">
+                        </label><br />
+                        <label className="text-gray-400">
                             <input
                             type="radio"
                             name="radio"
                             value="2"
-                            className="mr-2 text-black border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
+                            className="mr-2 text-gray-400 border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
                             />
                             Mobile Development
-                        </label>
-                        <label className="text-black">
+                        </label><br />
+                        <label className="text-gray-400">
                             <input
                             type="radio"
                             name="radio"
                             value="2"
-                            className="mr-2 text-black border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
+                            className="mr-2 text-gray-400 border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
                             />
                             Both
                         </label>
@@ -85,7 +85,7 @@ export const MentorForm = () => {
                         name="select"
                         value=""
                         onclick="this.setAttribute('value', this.value);"
-                        className="pt-3 pb-2 block w-full px-0 mt-0 text-black bg-transparent border-0 border-b-2 appearance-none z-1 focus:outline-none focus:ring-0 focus:border-black border-gray-200"
+                        className="pt-3 pb-2 block w-full px-0 mt-0 text-gray-400 bg-transparent border-0 border-b-2 appearance-none z-1 focus:outline-none focus:ring-0 focus:border-black border-gray-200"
                         >
                             <option value="" selected disabled hidden>Choose Expertise</option>
                                 <option value="backend">Backend Development</option>
@@ -97,7 +97,7 @@ export const MentorForm = () => {
                                 <option value="powerbi">Power Bi/Python</option>
                                 <option value="testing">Software Testing</option> */}
                         </select>
-                        <label for="select" className="absolute duration-300 top-3 -z-1 origin-0 text-ppl">Choose Expertise</label>
+                        <label for="select" className="absolute duration-300 top-3 -z-1 origin-0 text-yel">Choose Expertise</label>
                         <span className="text-sm text-red-600 hidden" id="error">Option has to be selected</span>
                     </div>
                     <div className="relative z-0 w-full mb-5">
@@ -107,7 +107,7 @@ export const MentorForm = () => {
                         placeholder=" "
                         className="pt-3 pb-2 pr-12 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
                         />
-                        <label for="github" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">Link to Portfolio</label>
+                        <label for="github" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-400">Link to Portfolio</label>
                         <span className="text-sm text-red-600 hidden" id="error">Field is required</span>
                     </div>
                     <div className="relative z-0 w-full mb-5">
@@ -115,26 +115,26 @@ export const MentorForm = () => {
                         name="select"
                         value=""
                         onclick="this.setAttribute('value', this.value);"
-                        className="pt-3 pb-2 block w-full px-0 mt-0 text-black bg-transparent border-0 border-b-2 appearance-none z-1 focus:outline-none focus:ring-0 focus:border-black border-gray-200"
+                        className="pt-3 pb-2 block w-full px-0 mt-0 text-gray-400 bg-transparent border-0 border-b-2 appearance-none z-1 focus:outline-none focus:ring-0 focus:border-black border-gray-200"
                         >
                             <option value="" selected disabled hidden>Experience</option>
-                                <option value="backend">0-2 years</option>
-                                <option value="datasci">3 years</option>
-                                <option value="frontend">4 years</option>
-                                <option value="fullstack">5 years</option>
-                                <option value="dataanalysis">Over 5 years</option>
+                                <option value="backend" className="text-black">0-2 years</option>
+                                <option value="datasci" className="text-black">3 years</option>
+                                <option value="frontend" className="text-black">4 years</option>
+                                <option value="fullstack" className="text-black">5 years</option>
+                                <option value="dataanalysis" className="text-black">Over 5 years</option>
                         </select>
-                        <label for="date" className="absolute duration-300 top-3 -z-1 origin-0 text-ppl">Years of Experience</label>
+                        <label for="date" className="absolute duration-300 top-3 -z-1 origin-0 text-yel">Years of Experience</label>
                         <span className="text-sm text-red-600 hidden" id="error">Field is required</span>
                         </div>
                        
-                        <div className="grid items-center justify-start space-x-4 text-black">
+                        <div className="grid items-center justify-start text-gray-400">
                             <label className="inline-flex items-center">
                                 <input
                                     type="checkbox"
                                     name="language"
                                     value="c"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 C
                             </label>
@@ -143,7 +143,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="c-sharp"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 C#
                             </label>
@@ -152,7 +152,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="c-plus"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 C++
                             </label>
@@ -161,7 +161,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="go"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Go
                             </label>
@@ -170,7 +170,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="java"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Java
                             </label>
@@ -179,7 +179,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="javascript"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 JavaScript
                             </label>
@@ -188,7 +188,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="julia"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Julia
                             </label>
@@ -197,7 +197,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="koitlin"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Koitlin
                             </label>
@@ -206,7 +206,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="matlab"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Matlab
                             </label>
@@ -215,7 +215,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="nosql"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 NoSQL
                             </label>
@@ -224,7 +224,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="php"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 PhP
                             </label>
@@ -233,7 +233,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="python"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Python
                             </label>
@@ -242,7 +242,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="r"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 R
                             </label>
@@ -251,7 +251,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="ruby"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Ruby
                             </label>
@@ -260,7 +260,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="rust"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Rust
                             </label>
@@ -269,7 +269,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="scala"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Scala
                             </label>
@@ -278,7 +278,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="sql"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 SQL
                             </label>
@@ -287,7 +287,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="swift"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 Swift
                             </label>
@@ -296,7 +296,7 @@ export const MentorForm = () => {
                                     type="checkbox"
                                     name="language"
                                     value="typescript"
-                                    className="mr-2 text-black border-gray-300 focus:border-gray-300 focus:ring-black"
+                                    className="mr-2 text-gray-400 border-gray-300 focus:border-gray-300 focus:ring-black"
                                 />
                                 TypeScript
                             </label>  
@@ -310,7 +310,7 @@ export const MentorForm = () => {
                         placeholder=" "
                         className="pt-3 pb-2 pl-5 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
                         />
-                        <label for="linkedin" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">LinkedIn Profile</label>
+                        <label for="linkedin" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-400">LinkedIn Profile</label>
                         <span className="text-sm text-red-600 hidden" id="error">Field is required</span>
                     </div>
                     <div className="relative z-0 w-full mb-5">
@@ -320,8 +320,7 @@ export const MentorForm = () => {
                         placeholder=" "
                         className="pt-3 pb-2 pr-12 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-black border-gray-200"
                         />
-                        <div className="absolute top-0 right-0 mt-3 mr-4 text-gray-400">min</div>
-                        <label for="github" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">GitHub Profile</label>
+                        <label for="github" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-400">GitHub Profile</label>
                         <span className="text-sm text-red-600 hidden" id="error">Field is required</span>
                     </div>
                     <div className="text-center">

@@ -9,7 +9,7 @@ export const MenteeForm = () => {
                 Set up a profile to share who you are and show
                 mentors what you need help with.
             </h1>
-            <div className="pl-4 bg-gray-300 w-2/3 h-2/3 md:h-1/2 md:w-1/2 mx-auto">
+            <div className="pl-4 bg-transparent-300 w-2/3 h-2/3 md:h-1/2 mx-auto mform">
                 <div className="form-body mx-auto">
                     <form id="form" novalidate>
                     <div className="relative z-0 w-full mb-5">
@@ -54,7 +54,7 @@ export const MenteeForm = () => {
                             type="radio"
                             name="radio"
                             value="1"
-                            className="mr-2 text-black border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
+                            className="mr-2 text-white border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
                             />
                             Option 1
                         </label>
@@ -63,7 +63,7 @@ export const MenteeForm = () => {
                             type="radio"
                             name="radio"
                             value="2"
-                            className="mr-2 text-black border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
+                            className="mr-2 text-white border-2 border-gray-300 focus:border-gray-300 focus:ring-black"
                             />
                             Option 2
                         </label>
