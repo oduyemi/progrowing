@@ -12,7 +12,8 @@ module.exports = {
       colors:{
         yel: "#FA9F42",
         whi: "#F4F4F9 ",
-        ppl: "#42113C"
+        ppl: "#42113C",
+        blu: "#5BC0EB"
       }
     },
   },
