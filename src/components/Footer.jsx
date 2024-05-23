@@ -18,12 +18,12 @@ export const Footer = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/https://learn.progrowing.org" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
+                        <Link to="https://learn.progrowing.org" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
                             Learning Center
                         </Link>
                     </li>
                     <li>
-                        <Link to="/taskify.progrowing.org" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
+                        <Link to="https://taskify.progrowing.org" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
                             Taskify
                         </Link>
                     </li>
