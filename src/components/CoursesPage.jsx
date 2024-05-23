@@ -33,7 +33,7 @@ export const CoursesPage = () => {
         <>
             <div className="mx-auto">
                 <h1 className="text-5xl text-center text-yel font-semibold">Learn From The Experts</h1>
-                <p className="mx-auto text-xl font-light text-center mt-6 w-1/2">
+                <p className="mx-auto text-xl font-light text-center mt-3 w-1/2">
                     Unlock your potential with Pro<span className="text-yel">
                     <h1 className="inline">Gro</h1></span>wing Mentor Masterclass. Learn LIVE
                     from experts, collaborate with peers and create real-world impact.
