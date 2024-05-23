@@ -13,17 +13,17 @@ export const Footer = () => {
                 </span>
                 <ul className="flex flex-wrap items-center mt-3 sm:mt-0">
                     <li>
-                        <Link to="/forum" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
+                        <Link to="https://forum.progrowing.org" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
                             Forum
                         </Link>
                     </li>
                     <li>
-                        <Link to="/learn" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
+                        <Link to="/https://learn.progrowing.org" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
                             Learning Center
                         </Link>
                     </li>
                     <li>
-                        <Link to="/taskify" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
+                        <Link to="/taskify.progrowing.org" className="mr-4 text-sm text-ppl hover:underline md:mr-6">
                             Taskify
                         </Link>
                     </li>
