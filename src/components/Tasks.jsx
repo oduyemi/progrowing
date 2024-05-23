@@ -3,7 +3,7 @@
 export const Tasks = () => {
     return(
         <>
-            <div className="min-h-screen flex flex-col items-center justify-center mt-[-10%] lg:mb-3">
+            <div className="min-h-screen flex flex-col items-center justify-center mt-[-14%] lg:mb-3">
                 <h1 className="text-5xl text-yel font-bold mb-8 animate-pulse">
                     Coming Soon
                 </h1>
