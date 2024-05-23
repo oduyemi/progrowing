@@ -44,7 +44,7 @@ export const CoursesPage = () => {
                 </div>
             </div>
 
-            <div className="slidebox" style={{marginTop: "5.7%", marginBottom: "0"}}>
+            <div className="slidebox" style={{marginTop: "3%", marginBottom: "0"}}>
                 <Slider {...settings} className="logo-slider flex items-center justify-center">
                 <div className="item"><Link to=""><img src={require("../assets/images/courses/course1.png")} className="course-img px-6 md:px-12 w-full" alt="Github" /></Link></div>
                 <div className="item"><Link to=""><img src={require("../assets/images/courses/course2.png")} className="course-img px-6 md:px-12 w-full" alt="Atom" /></Link></div>
