@@ -40,7 +40,7 @@ export const CoursesPage = () => {
                 </p>
 
                 <div className="mx-auto text-center">
-                    <Link to="/learn"><Button>Explore Courses</Button></Link>
+                    <Link to="https://learn.progrowing.org/"><Button>Explore Courses</Button></Link>
                 </div>
             </div>
 
