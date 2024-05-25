@@ -25,7 +25,7 @@ const Header = () => {
                 </button>
                 <Link to="/" className="mobile-menu-link text-l" onClick={closeMobileMenu}>Home</Link>
                 <Link to="/forum" className="mobile-menu-link text-l" onClick={closeMobileMenu}>Forum</Link>
-                <Link to="/courses" className="mobile-menu-link text-l" onClick={closeMobileMenu}>Learning Center</Link>
+                <Link to="https://learn.progrowing.org/" className="mobile-menu-link text-l" onClick={closeMobileMenu}>Learning Center</Link>
                 <Link to="/taskify" className="mobile-menu-link text-l" onClick={closeMobileMenu}>Taskify</Link>
                 <Link to="/mentor-form" className="mobile-menu-link"onClick={closeMobileMenu}><Button variant="outline">Be A Mentor</Button></Link>
                 <Link to="/mentee" className="mobile-menu-link"onClick={closeMobileMenu}><Button>Be A Mentee</Button></Link>
@@ -63,7 +63,7 @@ const Header = () => {
                     >
                         <li><Link to="/" className="text-l">Home</Link></li>
                         <li><Link to="/forum" className="text-l">Forum</Link></li>
-                        <li><Link to="/courses" className="text-l">Learning Center</Link></li>
+                        <li><Link to="https://learn.progrowing.org/" className="text-l">Learning Center</Link></li>
                         <li><Link to="/taskify" className="text-l">Taskify</Link></li>
                     </ul>
                     <div className="sidebtns flex items-center justify-between space-x-6 pr-8 mt-[-5%]">
