@@ -63,7 +63,7 @@ const Header = () => {
                     >
                         <li><Link to="/" className="text-l">Home</Link></li>
                         <li><Link to="/forum" className="text-l">Forum</Link></li>
-                        <li><Link to="https://learn.progrowing.org/" className="text-l">Learning Center</Link></li>
+                        <li><Link to="https://learn.progrowing.org/" target="_blank" className="text-l">Learning Center</Link></li>
                         <li><Link to="/taskify" className="text-l">Taskify</Link></li>
                     </ul>
                     <div className="sidebtns flex items-center justify-between space-x-6 pr-8 mt-[-5%]">
