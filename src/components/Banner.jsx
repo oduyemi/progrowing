@@ -25,7 +25,7 @@ export const Banner = () => {
                 <div className="banner-image video-wrapper embed-responsive-item w-full flex mx-auto mt-[-2%] p-3 mr-14">
                     <video autoplay muted playsInline autoPlay="true" loop="true" className="video">
                         <source src={require("../assets/images/motion/wall.mp4")} />
-                        Your browser does not support the video tag.
+                        Your browser does not support the video tag
                     </video>
                 <div className="video-wrapper flex items-center justify-center" id="heroImage">
                     
